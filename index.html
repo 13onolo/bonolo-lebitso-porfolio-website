@@ -23,25 +23,41 @@
     <div class="content">
     <!--Welcome and about page-->
          <div>
-            <div id="h1Transition"> <h1>Bonolo Lebitso Experience</h1></div>
-            <h5>add info from bio... introduction and shii. DOWNLOAD THE FUCKEN THING AND UPLOAD IT ALSO</h5>
+            <div id="h1Transition"> <h1 style="text-align: center; color: #fafafa ; font-size: xx-large;">Bonolo Lebitso Experience</h1></div>
+            <h5></h5>
+            <img src="images/Nolo-removebg-preview.png" alt="Bonolo lebitso's picture">
+            <p style="color: snow;">Bonolo was born and raised in North West, Khuma Location. Later moved to Free State, Viljoenskroon, where he developed the interest for fashion as an art form. Relocated to Bloemfontein to study Mechanical engineering at Central University of Technology and later on moved to study Information Systems in the university of the Free State, that is where he developed the love of coding and systems development. he is a creative and beginner web developer. Currently a recruit at Umuzi Academy in the web and system development department.</p>
         </div>
-     <div>
+        <div>
         <h2 id="skills">01 Professional Skills</h2>
         <p style=color:gold; text-align: center;>creative producer, fashion show director, fashion show choreographer, conceptualist, event orgernizer, begginer web developer and gender and sexuality activist... add a graph for all skill i have. add graph for languages i have used... add graph for event organizing</p>
-     </div>
+        </div>
 
     <!--Portfolio of evidence for my work page-->  
-         <div style="background-color: rgba(128, 128, 128, 0.322); width: 60%; padding: 20px;">
-             <h2 id="portfolio">02 Portfolio</h2>
-             <p>add gallery with pictures of previous events and my work.</p>
-             <img id="myImg" src="images/activisim.jpg" alt="Bra-March at Central University of Technology, led by ODDZ CREATIVES" style="width:100%;max-width:300px">
-         <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
-            <div id="caption"></div>
-        </div> 
-    </div>
+
+    <div class="container1">
+    <img src="images/Activism.png" style="max-width:100%;cursor:pointer"
+	onclick="onClick(this)" class="modal-hover-opacity">
+  </div>
+  <div class="container1">
+    <img src="images/bra-march.png" style="max-width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="modal-hover-opacity">
+  </div>
+  <div class="container1">
+    <img src="images/rainbow-baby.png" style="max-width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="modal-hover-opacity">
+  </div>
+  <div class="container1">
+    <img src="images/homie.png" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+  </div>
+
+
+<div id="modal01" class="modal" onclick="this.style.display='none'">
+  <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  <div class="modal-content">
+    <img id="img01" style="max-width:100%">
+  </div>
+</div>
 
     <!--Experience page-->
     <div>

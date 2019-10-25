@@ -1,0 +1,141 @@
+.nav{
+
+        background-color:rgba(202, 97, 28, 0.445);
+        overflow: hidden;
+       background-position: top;
+    }
+
+
+.nav a:hover{ 
+      background-color:rgba(128, 128, 128, 0.397);
+      color: rgb(0, 0, 0);
+    }
+.nav a
+{
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+}
+.nav a.active
+{
+        background-color: rgb(44, 39, 44);
+        color: white;
+}
+.nav-right
+{
+       float: right;
+}
+.container {
+        background-color: black;}
+
+body {
+        max-width: 100%;
+        height: auto;
+        background-image: url(../images/patula.png);
+        animation-name: example;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: 100% ;
+        background-color: rgb(0,0,0);
+      
+        }
+        
+        /* Standard syntax */
+        @keyframes example 
+        {
+        0%   {background-image: url(images/Activism.png);}
+        25%  {background-image: url(images/rainbow-baby.png);}
+        50%  {background-image: url(images/about-page.png);}
+        75%  {background-image: url(images/bra-march.png); }
+        100% {background-image: url(images/13118931_615843765233978_4662146971342972563_n.jpg);}
+}
+h1{
+    color:rgb(149, 53, 9);
+    text-align: center;
+    font-family:serif;
+    font-weight: bolder;
+  }
+h2{text-align: center;color: rgb(255, 72, 0);}
+h5
+{
+  text-align: center;color: slategrey;;
+}
+#h1Transition
+{
+  background: transparent;
+  width: inherit;
+  height: inherit;transition-duration: 10s;
+}
+ #myImg {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      #myImg:hover {opacity: 0.7;}
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1; 
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%; 
+        overflow: auto;
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0,0.9);
+      }
+      .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+      }
+      #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+      }
+      .modal-content, #caption {
+        animation-name: zoom;
+        animation-duration: 0.6s;
+      }
+      
+      @keyframes zoom {
+        from {transform:scale(0)}
+        to {transform:scale(1)}
+      }
+      .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+      .close:hover,
+      .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      @media only screen and (max-width: 700px){
+        .modal-content {
+          width: 100%;
+        }
+      } 
+.content{margin-left: 5%;
+margin-right: 5%;}   
+p{text-justify: inherit;}   
+      

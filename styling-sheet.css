@@ -60,7 +60,8 @@ h5
 {
   background: transparent;
   width: inherit;
-  height: inherit;transition-duration: 10s;
+  height: inherit;
+  transition-duration: 10s;
 }
 .modal {
   z-index:1;
@@ -130,5 +131,11 @@ margin-right: 5%;}
 p{text-justify: inherit;
   color: snow;}   
 
-* { box-sizing: border-box;}
+
+#welcome{
+  display: grid;
+  grid-column: 50%;
+  grid-gap: 20px;
+  grid-template-columns: auto auto;
+}
       
